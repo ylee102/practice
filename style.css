@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+} 
+
+body {
+    background-color: #1D212B;
+    color: white;
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#research {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.column {
+    flex: 1;
+    padding: 0 10px;
+}
+.column p {
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+#a {
+    font-size: 100px;
+}
+#logo{
+    width: 250px;
+    height: 80px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 1rem;
+}
+.navbar a {
+    color: #ccc;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.navbar a:hover {
+    color: white;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidebar :hover {
+    width:250px;
+}
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    color: white;   
+}
+.sidebar .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto; /* This will center the container */
+    font-size: 20px;
+}
+.underline {
+    width: 50px; /* Length of the underline */
+    height: 5px; /* Thickness of the underline */
+    background-color: #c00; /* Color of the underline */
+    margin-bottom: 1em; /* Space between the underline and the text */
+}
+.description {
+    font-size: 1em; /* Adjust the font size as needed */
+    line-height: 1.6; /* For better readability */
+}
+
+.content-section {
+    width: 60%;
+}
+.title {
+    font-size: 2em;
+    margin-bottom:0.5em 
+}
+
+
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #000;
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.footer-column h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-column a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.footer-column a:hover {
+    color: #fff;
+}
+.contact-title {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-right: 50px;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:nth-child(1) {
+    color:#fff;
+}
+section:nth-child(2) {
+    color: #1D212B;
+    background: #fff;
+}
+section .container {
+    margin: 100px;
+}
+
+section h2 {
+    font-size: 40px;
+    text-align:center;
+    text-transform: uppercase;
+}
+section .column {
+    display: flex;
+}
+
+
+
+
+
